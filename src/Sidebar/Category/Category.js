@@ -24,18 +24,18 @@ function Category({ handleChange }) {
                 />
                 <Input
                     handleChange={handleChange}
-                    value='falts'
-                    title='Falts'
+                    value='flats'
+                    title='Flats'
                     name='test'
                 />
                 <Input
                     handleChange={handleChange}
-                    value='sandals'
-                    title='Sandals'
+                    value='keds'
+                    title='Keds'
                     name='test'
                 />
                 <Input
-                    onChange={handleChange}
+                    handleChange={handleChange}
                     value='heels'
                     title='Heels'
                     name='test'

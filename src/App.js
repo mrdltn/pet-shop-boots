@@ -50,29 +50,28 @@ function App() {
             );
         }
         return filteredProducts.map(
-            ({ img, title, star, reviews, newPrice, prevPrice }) => (
+            ({ img, title, star, reviews, prevPrice, newPrice }) => (
                 <Card
                     key={Math.random()}
                     img={img}
                     title={title}
                     star={star}
                     reviews={reviews}
-                    newPrice={newPrice}
                     prevPrice={prevPrice}
+                    newPrice={newPrice}
                 />
             )
         );
     }
 
     const result = filteredData(products, selectedCategory, query);
-    console.log(result);
 
     return (
         <>
             <Sidebar handleChange={handleChange} />
-            <Navigation />
-            <Recommended />
-            <Products />
+            <Navigation query={query} handleInputChange={handleInputChange} />
+            <Recommended handleClick={handleClick} />
+            <Products result={result} />
         </>
     );
 }

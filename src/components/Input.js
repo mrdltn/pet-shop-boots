@@ -4,7 +4,7 @@ function Input({ handleChange, value, title, name, color }) {
             <input
                 onChange={handleChange}
                 type='radio'
-                value={'testtest'}
+                value={value}
                 name={name}
             />
             <span

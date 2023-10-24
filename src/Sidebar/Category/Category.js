@@ -16,31 +16,26 @@ function Category({ handleChange }) {
                     />
                     <span className='checkmark'></span>All
                 </label>
-                {/* <Input /> */}
                 <Input
                     handleChange={handleChange}
-                    // type='radio'
                     value='sneakers'
                     title='Sneakers'
                     name='test'
                 />
                 <Input
                     handleChange={handleChange}
-                    // type='radio'
                     value='falts'
                     title='Falts'
                     name='test'
                 />
                 <Input
                     handleChange={handleChange}
-                    // type='radio'
                     value='sandals'
                     title='Sandals'
                     name='test'
                 />
                 <Input
                     onChange={handleChange}
-                    // type='radio'
                     value='heels'
                     title='Heels'
                     name='test'

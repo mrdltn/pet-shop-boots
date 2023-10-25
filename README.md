@@ -1,6 +1,6 @@
 # https://mrdltn.github.io/pet-shop-boots/
 
-This is a simple Movies app on React using the API
+This is a simple Shop-Shoes app on React
 
 Main page
 ![Alt text](image.png)

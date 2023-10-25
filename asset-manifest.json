@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pet-shop-boots/static/css/main.9c5eb557.css",
+    "main.js": "/pet-shop-boots/static/js/main.650898e8.js",
+    "index.html": "/pet-shop-boots/index.html",
+    "main.9c5eb557.css.map": "/pet-shop-boots/static/css/main.9c5eb557.css.map",
+    "main.650898e8.js.map": "/pet-shop-boots/static/js/main.650898e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c5eb557.css",
+    "static/js/main.650898e8.js"
+  ]
+}

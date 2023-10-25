@@ -37,7 +37,7 @@ function Colors({ handleChange }) {
                     name='test1'
                 />
                 <Input
-                    onChange={handleChange}
+                    handleChange={handleChange}
                     value='green'
                     title='Green'
                     color='green'
@@ -57,6 +57,7 @@ function Colors({ handleChange }) {
                             border: '2px solid black',
                         }}
                     ></span>
+                    White
                 </label>
             </div>
         </div>

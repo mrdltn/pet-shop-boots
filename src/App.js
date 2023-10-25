@@ -5,6 +5,7 @@ import Recommended from './Recommended/Recommended';
 import Sidebar from './Sidebar/Sidebar';
 import products from './db/data';
 import Card from './components/Card';
+import './index.css';
 
 function App() {
     const [selectedCategory, setSelectedCategory] = useState(null);
@@ -14,10 +15,9 @@ function App() {
     const handleInputChange = (event) => {
         setQuery(event.target.value);
     };
-    const filteredItems = products.filter((product) =>
-        product.title
-            .toLocaleLowerCase()
-            .indexOf(query.toLocaleLowerCase() !== -1)
+    const filteredItems = products.filter(
+        (product) =>
+            product.title.toLowerCase().indexOf(query.toLowerCase()) !== -1
     );
 
     //----------------Radio Filter---------------------

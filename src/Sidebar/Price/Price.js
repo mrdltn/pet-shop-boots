@@ -35,7 +35,7 @@ function Price({ handleChange }) {
                     name='test2'
                 />
                 <Input
-                    onChange={handleChange}
+                    handleChange={handleChange}
                     value={200}
                     title='Over $150'
                     name='test2'
